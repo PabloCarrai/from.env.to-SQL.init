@@ -14,6 +14,6 @@ if test -f "$FI"; then
     rm $FI
 fi
 
-echo $CD >> init.sql
-echo $CUS >> init.sql
-echo $GUP >> init.sql
+echo $CD >> $FI 
+echo $CUS >> $FI 
+echo $GUP >> $FI 
